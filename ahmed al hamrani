@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun Free Games</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px 0;
+    }
+    h1 {
+      margin: 0;
+    }
+    .game-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+    .game {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      width: 200px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .game a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .game a:hover {
+      color: #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fun Free Games</h1>
+  </header>
+  <div class="game-list">
+    <div class="game">
+      <a href="https://example.com/game1" target="_blank">Game 1</a>
+    </div>
+    <div class="game">
+      <a href="https://example.com/game2" target="_blank">Game 2</a>
+    </div>
+    <div class="game">
+      <a href="https://example.com/game3" target="_blank">Game 3</a>
+    </div>
+    <div class="game">
+      <a href="https://example.com/game4" target="_blank">Game 4</a>
+    </div>
+  </div>
+</body>
+</html> 
